@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  
+   <h2>Form Using DOM</h2>
+   <form id="myForm">
+
+     <label for="fname">Firstname:</label><br>
+     <input type="text" name="" id="fname" placeholder="firstname"><br><br>
+
+
+     <label for="ltname">Lastname:</label><br>
+     <input type="text" name="" id="ltname" placeholder="lastname"><br><br>
+
+    <label for="mail">Email:</label><br>
+    <input type="email"  id="mail" placeholder="e-mail"><br><br>
+
+
+    <label for="address">Address:</label><br>
+    <input type="text" name="" id="address" placeholder="address"><br><br>
+
+    <label>Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female" required>
+    <label for="female">Female</label><br><br>
+
+
+    <label for="state">State:</label><br>
+    <input type="text" name="" id="state" placeholder="State"><br><br>
+
+
+
+    <label for="country">Country:</label><br>
+    <input type="text" name="" id="country" placeholder="country"><br><br>
+
+    <label>Hobbies:</label><br>
+    <input type="checkbox" id="reading" name="hobbies" value="reading">
+    <label for="reading">Reading</label><br>
+    <input type="checkbox" id="swimming" name="hobbies" value="swimming">
+    <label for="swimming">Swimming</label><br><br>
+    
+    <br>
+
+
+    <input type='button' value='Clear' onclick="reset()" class="clear" />
+    <input type='button' value='Submit' onclick="start()" class="clear" />
+    
+   </form>
+
+</html>
+
